@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  valtest:  'test prod'
+  valtest : location.host
 };
