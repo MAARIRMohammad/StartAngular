@@ -44,6 +44,14 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true
+            },
+            "demo1": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.demo1.ts"
+                }
+              ]
             }
           }
         },
@@ -55,6 +63,9 @@
           "configurations": {
             "production": {
               "browserTarget": "StartAngular:build:production"
+            },
+            "demo1": {
+              "browserTarget": "StartAngular:build:demo1"
             }
           }
         },
